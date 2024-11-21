@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="log.css">
+    <link rel="shortcut icon" href="./images/logo-1.png" type="image/x-icon">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Hungry Chef | Reg & Login</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                            </li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-user id=user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="">
+                            <li>Home</li>
+                        </a>
+
+                        <a href="">
+                            <li>About</li>
+                        </a>
+
+                        <a href="">
+                            <li>Catalog</li>
+                        </a>
+
+                        <a href="">
+                            <li>Cart</li>
+                        </a>
+
+                        <a href="">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="./images/logo_black.jpg" alt=""><i class="name">Hungry Chef</i>
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                     <a href="#">
+                         <li>Home</li>
+                     </a>
+                     <a href="#">
+                         <li>About</li>
+                     </a>
+                     <a href="#">
+                         <li>Catalog</li>
+                     </a>
+                     <a href="#">
+                        <li>Cart</li>
+                     </a>
+                     <a href="#">
+                        <li>Contact</li>
+                     </a> 
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                        </li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register">
+                    <p>
+                        I don't have an account? <a class="register-link" href="#">Register</a>
+                    </p>
+                </div>
+                
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="call"></ion-icon>
+                    </span>
+                    <input type="Contact" required>
+                    <label>Contact</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="pin"></ion-icon>
+                    </span>
+                    <input type="address" required>
+                    <label>Address</label>
+                </div>
+                
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="register">
+                    <p>
+                        I already have an account? <a class="login-link" href="#">Login</a>
+                    </p>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
