@@ -145,8 +145,10 @@
 }
 
 .container1{
-    width: 97vw;
-    height: 3000px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
     border: 2px solid gold;
     margin-top: 30px;
     margin-left: 10px;
@@ -154,7 +156,6 @@
 }
 
 .box1{
-    float: left;
     border: 1px solid rgb(199,0,57);
     width: 230px;
     height: 310px;
